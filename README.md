@@ -1,1 +1,1 @@
-# public
+# Repo for publicly accessible content.
