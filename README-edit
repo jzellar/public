@@ -1,13 +1,1 @@
-Public Repo for freely available content.
-import requests, bs4
-res = requests.get('http://www.arrl.org/ve-session-counts?state=IN')
-
-call = str(bs4.BeautifulSoup(res.text))
-
-if "KC9SJV" in (call): 
-   status = "KC9SJV Is A VE"
-if "KC9SJV" not in (call):
-   status = "KC9SJV Is Not A VE"
-
-
-print (status)
+32
